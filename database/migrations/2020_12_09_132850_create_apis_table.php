@@ -14,11 +14,11 @@ class CreateApisTable extends Migration
     public function up()
     {
         Schema::create('apis', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->integer('age');
-            $table->timestamps();
-        });
+        $table->id();
+        $table->string('name');
+        $table->integer('age');
+        $table->timestamps();
+});
     }
 
     /**
